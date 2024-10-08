@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    padding: 15px 100px;
+}
+
+.container {
+    width: 90%;
+}
+
+.Naver {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 0px;
+
+}
+
+
+.table{
+    display: flex;
+    gap: 15px;
+
+}
+
+.table>.top-right>a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: white;
+}
+
+.title_of_the_website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 114px;
+}
+
+.title_of_the_website>h1 {
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 93px;
+    text-align: center;
+    width: 743px;
+}
+
+.Immortal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 102px;
+    margin-top: 110px;
+    row-gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.master_wrapper {
+    width: 394px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(133, 133, 133);
+}
+
+.master_wrapper>h3 {
+    color: black;
+}
+
+footer {
+    background-color: black;
+}
